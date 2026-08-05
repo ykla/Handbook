@@ -1,5 +1,15 @@
 # 编辑日志
 
+- 2026.8.5 同步第 27 章 cutting-edge 至 <https://github.com/freebsd/freebsd-doc/commit/bcd8df85f82364e7879145edadcd67d46fba4cc9>（上游新增“简介”章节，插入为 27.2；原 27.2-27.9 顺延为 27.3-27.10；同步 27.3.3“执行小版本和大版本升级”小节内容精简；更新 SUMMARY.md 及跨章/章内交叉引用）
+  - 上游 commit：bcd8df8 handbook/cutting-edge: Add an introduction
+  - 变更文件清单：
+    - 新增 di-27-zhang-freebsd-geng-xin-yu-sheng-ji/27.2.-jian-jie.md（简介：大版本与小版本、更新与升级、升级路径）
+    - 重命名 27.2-27.9 → 27.3-27.10（含内部 H2/H3/H4 标题前缀同步更新）
+    - 更新 27.3.3 小节内容（移除冗余的小版本/大版本升级示例，改为精简表述）
+    - 更新 SUMMARY.md 第 27 章目录（新增 27.2 条目，27.2-27.9 顺延为 27.3-27.10）
+    - 修复跨章引用：di-10/10.6、di-17/17.12、di-25/25.7、di-35/35.10
+    - 修复章内引用：27.3/27.6/27.7/27.8/27.9 内部交叉链接及锚点
+  - 校对范围：27.2.-jian-jie.md（三轮逐句对照英文原文）+ 27.3.3 内容变更 + 全部重命名文件标题前缀 + 交叉引用完整性 + CJK 空格规范
 - 2026.7.20 同步第 23 章 ZFS 至 <https://github.com/freebsd/freebsd-doc/commit/f8d86635bc2f2d2706a1f084c0bbc260468e489f>（H2 从 8 节扩展到 10 节，新增 ZFS 原生加密、引导环境等章节；重写 Tuning；删除 ZFS on i386；新增 RAID-Z 扩展、dRAID、特殊分配类、热备与 zfsd、TRIM、池检查点、块克隆、书签、快照持有、可恢复传输、纠错接收、项目配额、重写已有数据、NFSv4 ACL、ARC 大小与监控、同步写入 ZIL 与 SLOG、直接 I/O、recordsize 与 volblocksize、导入 GELI 加密池等小节）
 - 2026.7.16 同步第 17 章 jail 至 <https://github.com/freebsd/freebsd-doc/commit/56ba04a704e911e7f8f87be271f31f1dedc8f793>（H2 从 9 节扩展到 16 节，新增 VNET jail、Linux jail、NAT 和端口转发、服务 jail、从 jail 内部管理、更多 jail 选项、jail 与 ZFS 等章节）
 - 2026.6.29 同步最新
