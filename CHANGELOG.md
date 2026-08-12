@@ -1,5 +1,21 @@
 # 编辑日志
 
+- 2026.8.12 同步 freebsd-doc 上游更新至 <https://github.com/freebsd/freebsd-doc/commit/9d82c9feae88f67969c88d0c8319afb7dd0a2fc8>
+  - 上游 commit 列表（自 f8d86635 起）：
+    - 9d82c9f Register our official mirror in France
+    - ba221a2 Fix assorted typos and grammar
+    - 61a4734 doc: Update source files (en .po), for translations
+    - d0d8468 handbook/multimedia: Improve wording in the mpv section
+    - bcd8df8 handbook/cutting-edge: Add an introduction
+  - 中文翻译变更文件清单：
+    - fu-lu-a.-huo-qu-freebsd/a.1.-jing-xiang-zhan.md（新增法国官方镜像站点）
+    - di-9-zhang-duo-mei-ti/9.4.-shi-pin-bo-fang-qi.md（改进 mpv 部分：Wayland 崩溃提示、TTRPG/HDR 配置文件说明）
+    - di-27-zhang-freebsd-geng-xin-yu-sheng-ji/27.2.-jian-jie.md（新增：简介章节，包含大版本/小版本、更新与升级、升级路径三节）
+    - di-27-zhang-freebsd-geng-xin-yu-sheng-ji/27.3.-geng-xin-freebsd.md（原 27.2，简化 27.3.3 小节内容）
+    - di-27-zhang-freebsd-geng-xin-yu-sheng-ji/27.4.-geng-xin-bootcode.md 至 27.10.-zai-fei-freebsd-zhu-ji-shang-jin-xing-gou-jian.md（章节编号因新增简介章节而后移）
+    - SUMMARY.md、mu-lu.md（更新第 27 章目录条目）
+    - di-10-zhang-pei-zhi-freebsd-nei-he/10.6.-ru-guo-fa-sheng-le-yi-xie-cuo-wu.md、di-17-zhang-jail/17.12.-geng-xin-jail.md、di-25-zhang-xu-ni-hua/25.7.-shi-yong-freebsd-shang-de-bhyve-xu-ni-ji.md、di-35-zhang-gao-ji-wang-luo/35.10.-shi-yong-pxe-jin-hang-wu-pan-cao-zuo.md（更新对第 27 章的跨章节交叉引用）
+  - 校对范围：本次翻译/修改过的所有 .md 文件，三轮逐句校对 + 一轮复查，联网核实 14.4-RELEASE（2026 年 3 月）与 15.0-RELEASE（2025 年 12 月）发布日期与英文原文一致
 - 2026.7.20 同步第 23 章 ZFS 至 <https://github.com/freebsd/freebsd-doc/commit/f8d86635bc2f2d2706a1f084c0bbc260468e489f>（H2 从 8 节扩展到 10 节，新增 ZFS 原生加密、引导环境等章节；重写 Tuning；删除 ZFS on i386；新增 RAID-Z 扩展、dRAID、特殊分配类、热备与 zfsd、TRIM、池检查点、块克隆、书签、快照持有、可恢复传输、纠错接收、项目配额、重写已有数据、NFSv4 ACL、ARC 大小与监控、同步写入 ZIL 与 SLOG、直接 I/O、recordsize 与 volblocksize、导入 GELI 加密池等小节）
 - 2026.7.16 同步第 17 章 jail 至 <https://github.com/freebsd/freebsd-doc/commit/56ba04a704e911e7f8f87be271f31f1dedc8f793>（H2 从 9 节扩展到 16 节，新增 VNET jail、Linux jail、NAT 和端口转发、服务 jail、从 jail 内部管理、更多 jail 选项、jail 与 ZFS 等章节）
 - 2026.6.29 同步最新
