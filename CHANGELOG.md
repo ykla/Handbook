@@ -1,5 +1,24 @@
 # 编辑日志
 
+- 2026.8.16 同步 freebsd-doc 上游更新至 <https://github.com/freebsd/freebsd-doc/commit/b23c17d9de071d770e8a18394660990c03a26c44>（新增第 27 章 27.2 节"简介"翻译；第 27 章重编号：原 27.2–27.9 顺移至 27.3–27.10；gai-shu.md 版本号 15.0→15.1；附录 A.1 新增法国镜像站；9.4 mpv 小节措辞改进；同步跨章引用 10.6、17.12、25.7、35.10）
+  - 上游 commit 列表：
+    - b23c17d9 14.5-R: Revert previous commit until the 14.5-R release
+    - ab0db63e 14.5-R: Temporary version bump for 14.5-R
+    - a06d4089 handbook: bump for 15.1-R
+    - 9d82c9fe Register our official mirror in France
+    - ba221a23 Fix assorted typos and grammar
+    - 61a4734e doc: Update source files (en .po), for translations
+    - d0d8468a handbook/multimedia: Improve wording in the mpv section
+    - bcd8df85 handbook/cutting-edge: Add an introduction
+  - 变更文件清单：
+    - 新增：di-27-zhang-freebsd-geng-xin-yu-sheng-ji/27.2.-jian-jie.md（27.2 简介）
+    - 重命名（章节编号顺移）：di-27-zhang-freebsd-geng-xin-yu-sheng-ji/27.2.-geng-xin-freebsd.md → 27.3.-geng-xin-freebsd.md；27.3.-geng-xin-bootcode.md → 27.4.-geng-xin-bootcode.md；27.4.-geng-xin-wen-dang.md → 27.5.-geng-xin-wen-dang.md；27.5.-zhui-zong-kai-fa-fen-zhi.md → 27.6.-zhui-zong-kai-fa-fen-zhi.md；27.6.-cong-yuan-dai-ma-geng-xin-freebsd.md → 27.7.-cong-yuan-dai-ma-geng-xin-freebsd.md；27.7.-pkgbase.md → 27.8.-pkgbase.md；27.8.-duo-tai-ji-qi-de-zhui-zong.md → 27.9.-duo-tai-ji-qi-de-zhui-zong.md；27.9.-zai-fei-freebsd-zhu-ji-shang-jin-xing-gou-jian.md → 27.10.-zai-fei-freebsd-zhu-ji-shang-jin-xing-gou-jian.md
+    - 修改：SUMMARY.md（插入 27.2 条目并更新 27.3–27.10 路径）
+    - 修改：gai-shu.md（15.0-RELEASE → 15.1-RELEASE）
+    - 修改：fu-lu-a.-huo-qu-freebsd/a.1.-jing-xiang-zhan.md（镜像站列表新增法国）
+    - 修改：di-9-zhang-duo-mei-ti/9.4.-shi-pin-bo-fang-qi.md（mpv 小节措辞改进：Wayland 崩溃说明、TTRPG 自动应用说明、HDR 命令引入句）
+    - 修改（跨章引用更新）：di-10-zhang-pei-zhi-freebsd-nei-he/10.6.-ru-guo-fa-sheng-le-yi-xie-cuo-wu.md；di-17-zhang-jail/17.12.-geng-xin-jail.md；di-25-zhang-xu-ni-hua/25.7.-shi-yong-freebsd-shang-de-bhyve-xu-ni-ji.md；di-35-zhang-gao-ji-wang-luo/35.10.-shi-yong-pxe-jin-hang-wu-pan-cao-zuo.md
+    - 修改：CLAUDE.md、README.md（git 版本引用更新至 b23c17d9de071d770e8a18394660990c03a26c44）
 - 2026.7.20 同步第 23 章 ZFS 至 <https://github.com/freebsd/freebsd-doc/commit/f8d86635bc2f2d2706a1f084c0bbc260468e489f>（H2 从 8 节扩展到 10 节，新增 ZFS 原生加密、引导环境等章节；重写 Tuning；删除 ZFS on i386；新增 RAID-Z 扩展、dRAID、特殊分配类、热备与 zfsd、TRIM、池检查点、块克隆、书签、快照持有、可恢复传输、纠错接收、项目配额、重写已有数据、NFSv4 ACL、ARC 大小与监控、同步写入 ZIL 与 SLOG、直接 I/O、recordsize 与 volblocksize、导入 GELI 加密池等小节）
 - 2026.7.16 同步第 17 章 jail 至 <https://github.com/freebsd/freebsd-doc/commit/56ba04a704e911e7f8f87be271f31f1dedc8f793>（H2 从 9 节扩展到 16 节，新增 VNET jail、Linux jail、NAT 和端口转发、服务 jail、从 jail 内部管理、更多 jail 选项、jail 与 ZFS 等章节）
 - 2026.6.29 同步最新
